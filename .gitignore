@@ -1,9 +1,7 @@
 
-
 /qemu
 *.o
 *.elf
 *.out
 *.bin
-
 
