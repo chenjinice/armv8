@@ -1,7 +1,8 @@
 
 
-tmp := $(PATH) 
-export PATH = $(tmp):/home/chen/Desktop/optee_qemu/toolchains/aarch64/bin/
+GCC_PATH  = /home/chen/Desktop/optee_qemu/toolchains/aarch64/bin
+QEMU_PATH = $(shell pwd)/../qemu/aarch64-softmmu
+export PATH := $(PATH):$(GCC_PATH):$(QEMU_PATH)
 
 CROSS_COMPILE = aarch64-linux-gnu-
 O = out
