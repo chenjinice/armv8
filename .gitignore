@@ -1,5 +1,8 @@
 
 /qemu
+
+out
+
 *.o
 *.elf
 *.out
